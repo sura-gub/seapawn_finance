@@ -1,0 +1,553 @@
+.bgcolor {
+  backdrop-filter: blur(13px);
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0,0.1)),
+              url(../img/il22.png) no-repeat center;
+  background-size: cover;
+  height: 100vh; /* Set the height to fill the viewport */
+  position: relative;
+  z-index: 0;
+  display: grid;
+  align-items: center;
+  overflow: hidden; /* Prevent any potential scrollbars */
+  margin: 0; /* Remove any default margin on the body or container */
+}
+
+.mtt {
+  padding: 4% 7%;
+  width:25% ;
+}
+
+.bttn {
+  margin-left: 84%;
+  margin-top: -8%;
+  margin-bottom: 8%;
+
+  border: none;
+  padding: 0.5% 2%;
+  border-radius: 6%;
+  /* margin-top: 4%; */
+}
+
+.dnone {
+  display: none;
+}
+
+
+
+.iimgg {
+  margin-top: 8%;
+  margin-left: 13%;
+}
+
+.txt {
+  margin-left: 13%;
+  margin-top: -5%;
+  color: #031287;
+  font-size: small;
+  font-family: outfit-regular sans-serif;
+
+}
+.txtl{
+  margin-left: 13%;
+  margin-top: 1%;
+  color: #031287;
+  /* font-size: small; */
+  font-family: outfit-regular sans-serif;
+}
+.txt1 {
+  margin-left: 13%;
+  margin-top: 1%;
+  color: #031287;
+  font-size: 40px;
+  font-family: outfit-medium sans-serif;
+}
+
+.txt2 {
+  margin-left: 13%;
+  margin-top: 3%;
+  color: #031287;
+  font-size: larger;
+  font-family: outfit-regular sans-serif;
+
+}
+
+
+.bttn1 {
+  margin-left: 13%;
+  border: none;
+  padding: 0% 1%;
+  border-radius: 5%;
+  margin-top: 7%;
+  margin-bottom: 6%;
+}
+
+.spc {
+  margin-top: 1%;
+}
+
+.banner_sidebar .bannermile {
+  width: 50%;
+  border-bottom: 5px solid rgb(233, 203, 149);
+  height: 350px;
+  margin-top: -25px;
+  border-radius: 350px;
+}
+.banner_sidebar {
+  position: relative;
+  margin-bottom: 35%;
+}
+.banner_sidebar .heartone {
+  position: absolute;
+  left: 0;
+  /* width: 10px;
+  height: 20px; */
+  /* top: 29px; */
+  height: 180px;
+  width: 180px;
+  
+}
+.banner_sidebar .hearttwo {
+  position: absolute;
+  right: 3;
+  width: 100px;
+  height: 70px;
+  bottom: 49px;
+}
+
+.coming-page-info-6 {
+  /* background: url(../img/bg-7.png) no-repeat center; */
+  background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  -ms-background-size: 100% 100%;
+  height: 100vh;
+  position: relative;
+  z-index: 0;
+  display: grid;
+  align-items: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="number"],
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+input[type="radio"]{
+  /* -webkit-appearance: auto; */
+  width: 21px;
+  cursor: pointer;
+}
+
+/* Reset some default styles for header1 */
+body,
+ul {
+  margin: 0; 
+  padding: 0;
+}
+
+/* Style for the main navbar */
+.navbar {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  /* border-top: #ff2500 3px solid; */
+  box-shadow: 0 4px 10px -3px rgba(0, 0, 0, 0.75);
+  background: url(../img/pangold1.jpg);
+  background-size: cover;
+
+}
+
+/* Style for the list of items in the navbar */
+.nav-list {
+  list-style-type: none;
+  display: flex;
+}
+
+/* Style for each individual item in the navbar */
+.nav-item {
+  margin: 0 auto;
+  padding: 0.3% 0.15%;
+}
+.nav-item:hover{
+background-color: #ffffff8d;
+}
+
+/* Style for the links in the navbar */
+.nav-link {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+/* Change link color on hover */
+
+
+/* Style for the sub-menu */    
+.sub-menu {
+  display: none;
+  position: absolute;
+  background-color: white;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Style for sub-menu items */
+.sub-menu li {
+  color: #000000;
+  display: block;
+  font-size: 14px;
+  padding: 0px 2px;
+  margin: 0px 5px;
+  text-shadow: none;
+  letter-spacing: 0.7px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.sub-menu li:hover {
+  color: #000;
+  text-decoration: none;
+  background: #c0c0ba;
+  border-radius: 5px;
+}
+/* Style for the parent link when the sub-menu is active */
+.nav-item:hover .sub-menu {
+  display: block;
+  
+}
+.navbar > ul > li {
+  /* border-left: #e4dfdb 1px solid; */
+  border-right: #646161 1px solid;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+/* home bg */
+.bghome {
+  content: "";
+ min-height: 100vh;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url(../img/bgld2.png) no-repeat center center fixed;
+  background-size: cover;
+  z-index: -2;
+}
+
+.txt3 {
+  /* Tahoma, Geneva, sans-serif */
+  font: 400 1.1em/1.5em;
+  font-size:16px;
+  color: #757373;
+}
+
+.txt4{
+  color: rgb(84, 75, 122);
+}
+
+/* footer */
+.foot {
+  background: url(../img/pangold1.jpg);
+  background-size: cover;
+  width: 100%;
+
+}
+
+/* loan page */
+.title {
+  border: thin solid #cccccc52;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  color: #004aad;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.article {
+    border: #a8a8a6 1px solid;
+    border-radius: 6px;
+}
+
+.table-responsive{
+  max-height: 550px;
+  overflow-y: scroll;
+}
+@media screen and (max-width:950px) {
+  .of{
+    overflow-x: scroll;
+  }
+  
+}
+   
+/* popup */
+/* Add this CSS in your component or in a separate CSS file */
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;  
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  z-index: 1000;
+  box-shadow: 0px 0px 10px 0px #000000;
+}
+
+.popup-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.popup label {
+  margin-bottom: 10px;
+}
+
+.popup input {
+  margin-bottom: 20px;
+}
+
+.popup button {
+  background-color: #004AAD;
+  color: white;
+  border: none;
+  padding: 10px 20px; 
+  cursor: pointer;
+}
+
+/* calculator */
+.rst
+{
+  display: none;
+}
+.mn{
+  display: none;
+  margin-left: 340px;
+}
+
+.welmg{
+  border-bottom: 4px solid rgb(242, 240, 235);
+  border-radius: 100px 100px 200px 162px;
+   width:370px; 
+}
+
+.welmg1{
+  
+  display: flex;
+  margin:20px 65px;
+}
+@media screen and (max-width:749px) {
+  .welmg1{
+  
+     display: grid;
+  }
+ 
+  .welmg{
+    border-bottom: 1px solid darkgray;
+     width:270px; 
+  }
+  .mn{
+    display: block;
+    margin-right: 380px;
+  }
+  .navbar {
+    flex-direction: row;
+    
+  }
+  .navbar > ul > li {
+    /* border-left: #e4dfdb 1px solid; */
+    border-right: none;
+   
+    font-weight: 700;
+    white-space: nowrap;
+    
+  }
+  .nav-item {
+
+    padding: 0% 0.15%;
+    justify-content: start;
+     margin-left: -10px;
+     
+  }
+  .nav-list {
+    list-style-type: none;
+    display: grid;
+    display: none;
+    margin-right: 200px;
+    width: 500px;
+    
+   
+  
+  }
+  .mobile-menu {
+    display: none;
+  
+  }
+  .mobile-menu-open .nav-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .bttn {
+    margin-left: 65%;
+    border: none;
+    padding: 0.5% 2%;
+    border-radius: 12%;
+    margin-top: -13%;
+  margin-bottom: 8%;
+  }
+  .bgcolor {
+    backdrop-filter: blur(13px);
+    /* position: relative;
+    background: linear-gradient(178deg, rgb(238, 207, 29) -98%, wheat 66%); */
+    background:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(../img/bgld2.png) no-repeat center;
+      background-size: 100% 100%;
+      -webkit-background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      -ms-background-size: 100% 100%;
+      height:100vh;
+      position: relative;
+      z-index: 0;
+      display: grid;
+      align-items: center;
+  }
+  .mtt {
+  
+    width:150px ;
+  }
+  .banner_sidebar {
+    position: relative;
+    margin-bottom: 15%;
+  }
+}
+
+@media screen and (min-width:700px) {
+  .navbar {
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    /* border-top: #ff2500 3px solid; */
+    box-shadow: 0 4px 10px -3px rgba(0, 0, 0, 0.75);
+    background: url(../img/pangold1.jpg);
+    background-size: cover;
+  }
+  .clfl{
+    display: flex;
+  }
+  }
+
+
+@media screen and (max-width: 600px) {
+  .osear{
+    display: grid;
+  }
+  .login-container {
+    background-color: #f2f4f6;
+    padding: 10px 15px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    margin-top: 140px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .osear{
+    display: flex;
+  }
+  .login-container {
+     background: radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1ffc 62.5%, #5d4a1f 100%);
+    padding: 1px 90px;
+    border-radius: 20px;
+    max-width: 500px; 
+    width: 100%;
+    margin-top: -160px;
+    margin-left: 35%;
+  }
+  .flx{
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 1050px) and (min-width: 750px){
+  
+  .mn{
+    display: none;
+    margin-right: 380px;
+  }
+  .navbar {
+    flex-direction: row;
+  }
+  .navbar > ul > li {
+    /* border-left: #e4dfdb 1px solid; */
+    border-right: none;
+    border-bottom: #646161;
+    font-weight: 700;
+    white-space: nowrap;
+    
+  }
+  .nav-item {
+
+    padding: 0% 0.15%;
+    justify-content: start;
+     margin-left: -10px;
+  }
+  .nav-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;  
+  }
+}
+.art_lst {
+  background: #ff00008a;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  float: right;
+  border: none;
+}
+
+.eye-icon {
+  position: absolute;
+  top: 26.8%;
+  right: 36.5%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.eye-icon1 {
+  position: absolute;
+  top: 35.6%;
+  right: 36.5%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.eye-icon2 {
+  position: absolute;
+  top: 47%;
+  right: 36.5%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.password-input-container {
+  position: relative;
+}
